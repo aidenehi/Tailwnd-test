@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+    padding-top: 2rem;
+}
+
+.main-container{
+   width: 80%;
+   height: auto;
+   background-color: white;
+   border: solid 2px #f3f3f3;
+   margin: 0 auto;
+   padding: 2rem;
+   border-radius: 0.7rem;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px lightgrey;
+    padding: 2rem 0;
+}
+
+.left-list-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+}
+
+.list-title-section{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.title-container h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6d6d6d;
+    letter-spacing: 0.25px;
+}
+
+.small-chip-container{
+    width: fit-content;
+    height: auto;
+    padding: 0.25rem;
+    background-color: #BDFFCA;
+    border: solid 2px #2c7f5c;
+    border-radius: 0.5rem;
+}
+
+.small-chip-container p{
+    font-size: 1rem;
+    color: #2c7f5c;
+    font-family: sans-serif;
+}
+
+.list-caption-section{
+    width: fit-content;
+    height: auto;
+}
+
+.bottom-class-text{
+    width: fit-content;
+    height: auto;
+}
+
+.bottom-class-text p{
+    font-size: 0.8rem;
+    color: #9b9b9b;
+}
+
+.right-list-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.1rem;
+    align-items: center;
+}
+
+.right-button-container {
+    width: fit-content;
+    height: auto;
+}
+
+.right-button-container button{
+    background-color: white;
+    border: solid 2px #e3e3e3;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.right-icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.right-icon-container img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.last-line{
+    border-bottom: none;
+    padding-bottom: none;
+}
+
+@media (max-width: 768px){
+    .main-container{
+        width: 90%;
+        height: auto;
+        background-color: white;
+        border: solid 2px #f3f3f3;
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 0.7rem;
+     }
+
+    .right-button-container{
+        display: none;
+    }
+
+    .right-button-container button{
+        display: none;
+    }
+}
